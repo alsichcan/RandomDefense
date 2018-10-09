@@ -305,7 +305,7 @@
       <HintPath>C:/Users/Park/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Park/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>I:/dev/RandomDefense/Packages/com.unity.standardevents/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
@@ -392,6 +392,8 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\character setup guide link.txt" />
+    <None Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\read me.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />

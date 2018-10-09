@@ -254,7 +254,7 @@
       <HintPath>C:/Users/Park/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Park/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>I:/dev/RandomDefense/Packages/com.unity.standardevents/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -309,22 +309,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BossHPUI.cs" />
-    <Compile Include="Assets\Scripts\Buttons.cs" />
-    <Compile Include="Assets\Scripts\EnemyCountUI.cs" />
-    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\EnemyStats.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GoldUI.cs" />
-    <Compile Include="Assets\Scripts\LifeUI.cs" />
-    <Compile Include="Assets\Scripts\LumberUI.cs" />
-    <Compile Include="Assets\Scripts\ModeUI.cs" />
-    <Compile Include="Assets\Scripts\PlayerStats.cs" />
-    <Compile Include="Assets\Scripts\RoundCountdownUI.cs" />
-    <Compile Include="Assets\Scripts\Waypoints.cs" />
+    <Compile Include="Assets\Enemy\BossStats.cs" />
+    <Compile Include="Assets\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Enemy\EnemyStats.cs" />
+    <Compile Include="Assets\Enemy\Waypoints.cs" />
+    <Compile Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\Environment\Scripts\Move.cs" />
+    <Compile Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\Environment\Scripts\PointLight.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraBackwardUI.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraForwardUI.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraLeftUI.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraRightUI.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraZoom.cs" />
+    <Compile Include="Assets\Scripts\GameMaster\BossSpawner.cs" />
+    <Compile Include="Assets\Scripts\GameMaster\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\GameMaster\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameMaster\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\BossHPUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\Buttons.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\EnemyCountUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\GoldUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\LifeUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\LumberUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\ModeUI.cs" />
+    <Compile Include="Assets\Scripts\UserInterface\RoundCountdownUI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\character setup guide link.txt" />
+    <None Include="Assets\Imports\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\read me.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
